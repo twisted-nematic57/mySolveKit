@@ -1,0 +1,11 @@
+# Typically it's not good practice to include inputs in Git repositories. Problem writers (Like Advent of Code's) also
+# don't like people distributing their inputs.
+i_*
+
+# Ignore benchmarker-generated CSV outputs
+inputs/*.csv
+
+# Build artifacts
+out/
+*.class
+*.jar
